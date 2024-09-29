@@ -1,0 +1,57 @@
+.main_form
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.main_form
+.middle_col
+{
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 40px;
+    background: #dcdcdc;
+    width: 100%;
+
+}
+.main_form .middle_col input{
+    width: 100%;
+    padding: 2px 20px;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px dotted #000000;
+    margin-bottom: 15px;
+    color: #120101;
+    font-size: 14px;
+}
+.main_form .middle_col .father_mother{
+    display: flex;
+    column-gap: 20px;
+}
+.main_form .middle_col .reg_roll{
+    display: flex;
+    column-gap: 20px;
+}
+.main_form .middle_col .image_active{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.main_form .middle_col label{
+    display: inline-block;
+    color: #120101;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.button .button_2{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #120101;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #120101;
+}

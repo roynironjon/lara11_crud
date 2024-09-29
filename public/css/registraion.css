@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background: #151a37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .main_reg_column{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+.main .main_reg_column .main_reg{
+    border: 1px solid #fff;
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: -200px;
+}
+.main .main_reg_column .main_reg .reg-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    justify-content: space-between;
+}
+.main .main_reg_column .main_reg .reg-header h2{
+    color: #fff;
+}
+.main .main_reg_column .main_reg .reg-header .login a{
+    padding: 6px 30px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.main .main_reg_column .main_reg input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.main .main_reg_column .main_reg label{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.main .main_reg_column .img img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.main .main_reg_column .img img{
+    background-image: radial-gradient(rgb(183, 255, 0), rgb(193, 251, 193), rgb(255, 0, 128) 100%);
+    animation: bgclr 2s infinite;
+    padding: 40px;
+}
+@keyframes bgclr{
+    0%{
+        background-image: radial-gradient(rgb(255, 234, 0), rgb(182, 230, 182), rgb(4, 4, 55) 100%);
+    }
+    50%{
+        background-image: radial-gradient(rgb(0, 251, 255), rgb(174, 178, 236), rgb(255, 77, 0) 75%);
+    }
+    100%{
+        background-image: radial-gradient(rgb(183, 255, 0), rgb(193, 251, 193), rgb(255, 0, 128) 100%);
+    }
+}
+
+.button_reg{
+    padding: 6px 30px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
